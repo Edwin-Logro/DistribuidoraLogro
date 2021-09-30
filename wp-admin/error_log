@@ -1,0 +1,14 @@
+[06-Sep-2021 02:51:25 UTC] Error Specified key was too long; max key length is 767 bytes de la base de datos de WordPress para la consulta CREATE TABLE wp56_ce4wp_contacts (
+			contact_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+			email varchar(200) NOT NULL DEFAULT '',
+			first_name varchar(200) DEFAULT '',
+			last_name varchar(200) DEFAULT '',
+			telephone varchar(200) DEFAULT '',
+            consent varchar(200) DEFAULT '',
+			PRIMARY KEY  (contact_id),
+			UNIQUE KEY email (email)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci realizada por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CreativeMail\Managers\DatabaseManager->update_database_check, CreativeMail\Managers\DatabaseManager->create_contacts_table, dbDelta
+[06-Sep-2021 02:52:53 UTC] PHP Warning:  Creating default object from empty value in /home1/distrgro/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[06-Sep-2021 02:52:53 UTC] PHP Warning:  Creating default object from empty value in /home1/distrgro/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[06-Sep-2021 02:52:53 UTC] PHP Warning:  Creating default object from empty value in /home1/distrgro/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[06-Sep-2021 02:52:53 UTC] PHP Warning:  Creating default object from empty value in /home1/distrgro/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
